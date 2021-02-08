@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(245, 243, 243);
+    font-size: small;
+    height: 800px;
+
+}
+.ul,.poto,.poto0{
+    display: flex;
+    justify-content: space-between;
+}
+.box1 img,.box2 img{
+      width: 250px;
+      height: 200px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+.picture{
+    width: 25px;height: 25px;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
+#box{
+    background-color: rgb(66, 64, 64);
+    display: flex;
+    justify-content: space-between;
+}
+.box1,.box2,.box3,.box4{
+    width: 1100px;
+    border: 1px solid white;
+    margin: 10px;
+    background-color: white;
+    box-shadow:2px 2px 2px gray;
+}
+.box{
+    display: flex;
+}
+.box5{
+    height: 390px;
+    border: 1px solid white;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 2px 2px 2px gray;
+    flex: 1;
+    text-align: center;
+}
+.box0{
+    flex: 4;
+}
+.poto1,.poto2,.poto3,.poto4,.poto5,.poto6,.poto7,.poto8,.poto9,.poto10{
+    width: 170px;
+    height: 200px;
+    border: 1px solid rgb(199, 199, 199);
+    margin: 10px;
+    position: relative;
+}
+.poto1 img,.poto2 img,.poto3 img,.poto4 img,.poto5 img,.poto6 img,.poto7 img,.poto8 img,.poto9 img,.poto10 img{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+   }
+   .poto1 a,.poto2 a,.poto3 a,.poto4 a,.poto5 a,.poto6 a,.poto7 a,.poto8 a,.poto9 a,.poto10 a{
+       position: absolute;
+       left: 50px;
+       top: 5px;
+   }
+   .table{
+       width: 1100px;
+   }
+   .text{
+       height: 30px;
+       color:white;
+       background-color: black;
+       text-align: center;
+   }
+   .submit{
+       width: 200px;
+       color: white;
+       background-color: rgb(50, 50, 230);
+       border-radius: 3;
+   }
